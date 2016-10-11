@@ -1,4 +1,5 @@
 fileName="uhstack"
+testDirectory="test-cases/"
 inputFileFormat="test-*.txt"
 outputFileName="out-*.txt"
 letters="a t"

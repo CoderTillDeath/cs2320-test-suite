@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source settings.sh
+
 letter=$1
-./coogsive "input=test-cases/test-${letter}.1.txt"
+./${fileName} "input=test-cases/test-${letter}.1.txt"
 
