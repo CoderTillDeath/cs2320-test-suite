@@ -2,4 +2,4 @@
 source settings.sh
 
 ./files/compile.sh
-./files/diff.sh $1
+./files/output.sh $1 | diff - "../$testDirectory${outputFileFormat/&/$1}"
