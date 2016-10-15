@@ -1,5 +1,7 @@
 #!/bin/bash
 
-letter=$1
-./output.sh ${letter} | diff - test-cases/test-${letter}.out.txt
+source ./settings.sh
 
+./files/compile.sh
+
+./files/test.sh $1
