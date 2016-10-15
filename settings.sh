@@ -1,5 +1,5 @@
-fileName="coogsive"
+fileName="uhstack"
 testDirectory="test-cases/"
-inputFileFormat="test-&.1.txt"
-outputFileFormat="test-&.out.txt"
+inputFileFormat="test-&.txt"
+outputFileFormat="out-&.txt"
 letters="a b c d e f g h i j k l m n o p q r s t"
