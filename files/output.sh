@@ -1,4 +1,5 @@
 #!/bin/bash
 
 source settings.sh
-../$fileName "input=../$testDirectory${inputFileFormat/&/$1}"
+cmd="../$fileName input=../${testDirectory}${inputFileFormat/&/$1}"
+eval $cmd
