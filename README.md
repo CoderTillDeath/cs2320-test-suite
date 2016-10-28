@@ -90,5 +90,37 @@ I'm gonna open up a file called coogsive.cpp and setup a hello world program. Th
 
 Notice that to the right, I have invoked my first script: "outputForFile.sh". What that script does is automatically feed the specified input to the c++ program. Here's a demonstration. 
 
-![alt text](picture/20:35:07.png?raw=true)
+![alt text](picture/20:38:31.png?raw=true)
 
+Notice how the input file is formatted in the same way as the config file says: 
+```
+inputFile="test-&.1.txt"
+```
+
+As long as you configure that option correctly, this segment should work. Then, you can start programming! Once you think you can pass a certain test, you can use the **test.sh** script to make sure your output matches the output file. Like this:
+
+![alt text](picture/17:03:03.png?raw=true)
+
+You can go through and make sure that each test passes. As you approach the end of the assignment, you might want to be able to see all of the test results at one time. If you want to run all test cases automatically, then use the **runTests.sh**
+
+![alt text](picture/17:03:58.png?raw=true)
+
+Let's say we're not passing test c. We need to do some debugging! I have added a few scripts to make debugging a little bit easier. 
+
+![alt text](picture/17:04:20.png?raw=true)
+
+Ok, the first step, I think is to again show what the output that our program is giving. So, we do like this:
+
+![alt text](picture/20:48:35.png?raw=true)
+
+Ok, that's the output our program is giving. Let's check to see what the output **should** look like, using the **answerForFile.sh** script.
+
+![alt text](picture/20:51:00.png?raw=true)
+
+Ok, one more thing we can do is see what the input file looks like. We can do that with the **inputFile.sh** script.
+
+![alt text](picture/20:51:00.png?raw=true)
+
+Later on I fix the bug and, the test passes. 
+
+![alt text](picture/20:53:37.png?raw=true)
