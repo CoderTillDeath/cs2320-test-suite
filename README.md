@@ -127,9 +127,9 @@ Ok, that's the output our program is giving. Let's check to see what the output 
 
 ![alt text](pictures/20:51:00.png?raw=true)
 
-Ok, one more thing we can do is see what the input file looks like. We can do that with the **inputFile.sh** script.
+Ok, one more thing we can do is see what the **input file** looks like. We can do that with the **inputFile.sh** script.
 
-![alt text](pictures/20:51:00.png?raw=true)
+![alt text](pictures/20:48:52.png?raw=true)
 
 Later on I fix the bug and, the test passes. 
 
