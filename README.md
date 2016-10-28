@@ -66,23 +66,23 @@ Here are the scripts:
 ## Example Use Case
 So, I'm gonna walk through a few key moments that I experienced while doing hw2. So, let's begin! I start by going to my linux box, creating a folder called "hw2", and cd-ing into it.
 
-![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/17:13:52.png "Logo Title Text 1")
+![alt text](pictures/17:13:52.png?raw=true "Logo Title Text 1")
 
 Now, I'm going to get the test suite and the test cases for the homework.
 
-![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:52:06.png "Logo Title Text 1")
+![alt text](pictures/16:52:06.png?raw=true "Logo Title Text 1")
 
 We have the test suite and the test cases now. Let's configure the test suite. I'm going to open the file "settings.sh" with the **nano** test editor. You can open it with notepad or whatever you use.
 
-![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:52:21.png "Logo Title Text 1")
+![alt text](pictures/16:52:21.png?raw=true "Logo Title Text 1")
 
 This is what the configuration looks like: 
 
-![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:54:05.png "Logo Title Text 1")
+![alt text](pictures/16:54:05.png?raw=true "Logo Title Text 1")
 
 Save it and exit. You are now set up to use the test suite! I'm gonna open up another terminal, so I can have one terminal in the test-suite folder, and one in the "hw2" folder.
 
-![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:55:00.png "Logo Title Text 1")
+![alt text](pictures/16:55:00.png?raw=true "Logo Title Text 1")
 
 I'm gonna open up a file called coogsive.cpp and setup a hello world program. This is what the program looks like: 
 
