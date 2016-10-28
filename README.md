@@ -48,7 +48,7 @@ hw3
       +--->out-c.txt
 ```
 - inputFileFormat and outputFileFormat - The format that the files follow. Put an **&** symbol where the file changes letters. So for the example I gave above, the inputFileFormat would be "test-&.txt", and the output format will be "out-&.txt".
-- letters - Just type out the test case letters that show up in the folder. 
+- letters - Type out every letter test case that is in the test cases folder
 ---
 Here are the scripts: 
 - outputForFile.sh - Takes one argument for the letter of the file, and spits out the output for the given test case
@@ -63,6 +63,30 @@ Here are the scripts:
 - rTestsThrough.sh - Runs test cases until a certain letter that you give. Promotes continuous integration. 
 
 ---
-### Example Use Case
+## Example Use Case
+So, I'm gonna walk through a few key moments that I experienced while doing hw2. So, let's begin! I start by going to my linux box, creating a folder called "hw2", and cd-ing into it.
 
+![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/17:13:52.png "Logo Title Text 1")
+
+Now, I'm going to get the test suite and the test cases for the homework.
+
+![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:52:06.png "Logo Title Text 1")
+
+We have the test suite and the test cases now. Let's configure the test suite. I'm going to open the file "settings.sh" with the **nano** test editor. You can open it with notepad or whatever you use.
+
+![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:52:21.png "Logo Title Text 1")
+
+This is what the configuration looks like: 
+
+![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:54:05.png "Logo Title Text 1")
+
+Save it and exit. You are now set up to use the test suite! I'm gonna open up another terminal, so I can have one terminal in the test-suite folder, and one in the "hw2" folder.
+
+![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:55:00.png "Logo Title Text 1")
+
+I'm gonna open up a file called coogsive.cpp and setup a hello world program. This is what the program looks like: 
+
+![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:55:59.png "Logo Title Text 1")
+
+Notice that to the right, I have invoked my first script: "outputForFile.sh". What that script does is automatically feed the specified input to the c++ program. Here's a demonstration. 
 
