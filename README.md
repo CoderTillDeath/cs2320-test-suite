@@ -3,7 +3,7 @@
 I have made a set of scripts to make to make testing easier for those of us in this class, since our professor has not provided one himself. I have a series of scripts that you can use via the command line in order to help with testing your program. 
 
 ### Prerequisites
-In order to use my test suite, you will need g++, a c++ compiler, and git. Here's the link for both:
+In order to use my test suite, you will need g++, and git. Here's the link for both:
 
 - g++  - http://www1.cmc.edu/pages/faculty/alee/g++/g++.html
 - git - https://git-scm.com/
