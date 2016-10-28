@@ -5,8 +5,8 @@ I have made a set of scripts to make to make testing easier for those of us in t
 ### Prerequisites
 In order to use my test suite, you will need g++, and git. Here's the link for both:
 
-- g++  - http://www1.cmc.edu/pages/faculty/alee/g++/g++.html
-- git - https://git-scm.com/
+- g++ - http://www1.cmc.edu/pages/faculty/alee/g++/g++.html
+- git - https://git-scm.com/downloads
 
 To verify that g++ and git are installed on your computer, open up a terminal or command prompt and type **g++** or **git**: 
 ```
