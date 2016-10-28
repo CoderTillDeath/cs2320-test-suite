@@ -49,6 +49,7 @@ hw3
 ```
 - inputFileFormat and outputFileFormat - The format that the files follow. Put an **&** symbol where the file changes letters. So for the example I gave above, the inputFileFormat would be "test-&.txt", and the output format will be "out-&.txt".
 - letters - Type out every letter test case that is in the test cases folder
+
 ---
 Here are the scripts: 
 - outputForFile.sh - Takes one argument for the letter of the file, and spits out the output for the given test case
