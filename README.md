@@ -66,27 +66,29 @@ Here are the scripts:
 ## Example Use Case
 So, I'm gonna walk through a few key moments that I experienced while doing hw2. So, let's begin! I start by going to my linux box, creating a folder called "hw2", and cd-ing into it.
 
-![alt text](pictures/17:13:52.png?raw=true "Logo Title Text 1")
+![alt text](pictures/17:13:52.png?raw=true)
 
 Now, I'm going to get the test suite and the test cases for the homework.
 
-![alt text](pictures/16:52:06.png?raw=true "Logo Title Text 1")
+![alt text](pictures/16:52:06.png?raw=true)
 
 We have the test suite and the test cases now. Let's configure the test suite. I'm going to open the file "settings.sh" with the **nano** test editor. You can open it with notepad or whatever you use.
 
-![alt text](pictures/16:52:21.png?raw=true "Logo Title Text 1")
+![alt text](pictures/16:52:21.png?raw=true)
 
 This is what the configuration looks like: 
 
-![alt text](pictures/16:54:05.png?raw=true "Logo Title Text 1")
+![alt text](pictures/16:54:05.png?raw=true)
 
 Save it and exit. You are now set up to use the test suite! I'm gonna open up another terminal, so I can have one terminal in the test-suite folder, and one in the "hw2" folder.
 
-![alt text](pictures/16:55:00.png?raw=true "Logo Title Text 1")
+![alt text](pictures/16:55:00.png?raw=true)
 
 I'm gonna open up a file called coogsive.cpp and setup a hello world program. This is what the program looks like: 
 
-![alt text](pictures/16:55:59.png?raw=true "Logo Title Text 1")
+![alt text](pictures/16:55:35.png?raw=true)
 
 Notice that to the right, I have invoked my first script: "outputForFile.sh". What that script does is automatically feed the specified input to the c++ program. Here's a demonstration. 
+
+![alt text](picture/20:35:07.png?raw=true)
 
