@@ -67,7 +67,7 @@ Here are the scripts:
 ## Example Use Case
 So, I'm gonna walk through a few key moments that I experienced while doing hw2. So, let's begin! I start by going to my linux box, creating a folder called "hw2", and cd-ing into it.
 
-![alt text](pictures/17:13:52.png?raw=true)
+![alt text](pictures/21:02:47.png?raw=true)
 
 Now, I'm going to get the test suite and the test cases for the homework.
 
