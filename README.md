@@ -3,23 +3,32 @@
 I have made a set of scripts to make to make testing easier for those of us in this class, since our professor has not provided one himself. I have a series of scripts that you can use via the command line in order to help with testing your program. 
 
 ### Prerequisites
-In order to use my test suite, you will need g++, a c++ compiler. Here's the link for g++:
+In order to use my test suite, you will need g++, a c++ compiler, and git. Here's the link for both:
 
-http://www1.cmc.edu/pages/faculty/alee/g++/g++.html
+- g++  - http://www1.cmc.edu/pages/faculty/alee/g++/g++.html
+- git - https://git-scm.com/
 
-To verify that g++ is installed on your computer, open up a terminal or command prompt and type **g++**: 
+To verify that g++ and git are installed on your computer, open up a terminal or command prompt and type **g++** or **git**: 
 ```
 C:\Users\Benson>g++
 g++: fatal error: no input files
 compilation terminated.
+
+C:\Users\Benson>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+....................................................
 ```
-If you get the above error, then you are set. If instead you got this: 
+If you get the above messages, then you are set. If instead you got these: 
 ```
 C:\Users\Benson>g++
 'g++' is not recognized as an internal or external command,
 operable program or batch file.
+
+C:\Users\Benson>git
+'git' is not recognized as an internal or external command,
+operable program or batch file.
 ```
-Then you may need to do some troubleshooting.
+Then you may need to do some troubleshooting. Your linux box will already have these preinstalled if you want to work off of that. 
 ### Setup
 ---
 Before you start using the scripts, you need to do some initial configuration. In order to make configuration easier, I have included a file called **settings.sh** in order to make things configuration easy. Here is what the settings.sh file looks like: 
@@ -71,7 +80,7 @@ So, I'm gonna walk through a few key moments that I experienced while doing hw2.
 
 Now, I'm going to get the test suite and the test cases for the homework.
 
-![alt text](pictures/16:52:06.png?raw=true)
+![alt text](pictures/21:09:47.png?raw=true)
 
 We have the test suite and the test cases now. Let's configure the test suite. I'm going to open the file "settings.sh" with the **nano** test editor. You can open it with notepad or whatever you use.
 
