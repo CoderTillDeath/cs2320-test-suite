@@ -84,7 +84,7 @@ Now, I'm going to get the test suite and the test cases for the homework.
 
 We have the test suite and the test cases now. Let's configure the test suite. I'm going to open the file "settings.sh" with the **nano** test editor. You can open it with notepad or whatever you use.
 
-![alt text](pictures/16:52:21.png?raw=true)
+![alt text](pictures/21:10:53.png?raw=true)
 
 This is what the configuration looks like: 
 
