@@ -92,11 +92,11 @@ This is what the configuration looks like:
 
 Save it and exit. You are now set up to use the test suite! I'm gonna open up another terminal, so I can have one terminal in the test-suite folder, and one in the "hw2" folder.
 
-![alt text](pictures/16:55:00.png?raw=true)
+![alt text](pictures/21:15:30.png?raw=true)
 
 I'm gonna open up a file called coogsive.cpp and setup a hello world program. This is what the program looks like: 
 
-![alt text](pictures/16:55:35.png?raw=true)
+![alt text](pictures/21:13:18.png?raw=true)
 
 Notice that to the right, I have invoked my first script: "outputForFile.sh". What that script does is automatically feed the specified input to the c++ program. Here's a demonstration. 
 
