@@ -86,7 +86,7 @@ Save it and exit. You are now set up to use the test suite! I'm gonna open up an
 
 I'm gonna open up a file called coogsive.cpp and setup a hello world program. This is what the program looks like: 
 
-![alt text](https://github.com/codertilldeath/cs2320-test-suite/pictures/16:55:59.png "Logo Title Text 1")
+![alt text](pictures/16:55:59.png?raw=true "Logo Title Text 1")
 
 Notice that to the right, I have invoked my first script: "outputForFile.sh". What that script does is automatically feed the specified input to the c++ program. Here's a demonstration. 
 
