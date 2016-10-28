@@ -78,7 +78,7 @@ We have the test suite and the test cases now. Let's configure the test suite. I
 
 This is what the configuration looks like: 
 
-![alt text](pictures/16:54:05.png?raw=true)
+![alt text](pictures/20:59:25.png?raw=true)
 
 Save it and exit. You are now set up to use the test suite! I'm gonna open up another terminal, so I can have one terminal in the test-suite folder, and one in the "hw2" folder.
 
