@@ -109,15 +109,15 @@ inputFile="test-&.1.txt"
 
 As long as you configure that option correctly, this segment should work. Then, you can start programming! Once you think you can pass a certain test, you can use the **test.sh** script to make sure your output matches the output file. Like this:
 
-![alt text](pictures/17:03:03.png?raw=true)
+![alt text](pictures/12:35:06.png?raw=true)
 
 You can go through and make sure that each test passes. As you approach the end of the assignment, you might want to be able to see all of the test results at one time. If you want to run all test cases automatically, then use the **runTests.sh**
 
-![alt text](pictures/17:03:58.png?raw=true)
+![alt text](pictures/12:37:11.png?raw=true)
 
 Let's say we're not passing test c. We need to do some debugging! I have added a few scripts to make debugging a little bit easier. 
 
-![alt text](pictures/17:04:20.png?raw=true)
+![alt text](pictures/12:38:17.png?raw=true)
 
 Ok, the first step, I think is to again show what the output that our program is giving. So, we do like this:
 
